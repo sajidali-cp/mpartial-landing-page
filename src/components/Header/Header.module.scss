@@ -31,13 +31,15 @@
     align-items: center;
     -webkit-box-pack: justify;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     .mpartial_logo {
+      order: 1;
       img {
         width: 217px;
       }
     }
     .navbar_toggler {
+      order: 2;
       display: flex;
       padding: 0.25rem 0.75rem;
       font-size: 1.25rem;
@@ -56,11 +58,20 @@
         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8BAMAAADI0sRBAAAAD1BMVEVHcEwAAAAAAAAAAAAAAADTrAj/AAAABHRSTlMA4UhKtRqxjgAAACpJREFUOMtjYBgFQw4YuuAAQmBpEVzSjsRIK+I3fBSMxthojI3G2CiAAwBGSE/hXPmHywAAAABJRU5ErkJggg==);
       }
     }
+    .show{
+      display: flex !important;
+    }
     .navbar_collapse {
+      order: 3;
+      width: 100%;
       display: none;
       align-items: center;
+      justify-content: center;
       ul {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         padding-left: 0;
         margin-bottom: 0;
         list-style: none;
@@ -97,7 +108,7 @@
               letter-spacing: 0;
               font-size: 12px;
               line-height: 16px;
-              margin-left: 7%;
+              margin-left: 0%;
               white-space: nowrap;
               min-width: 20px;
             }
@@ -176,8 +187,10 @@
       .navbar_collapse {
         display: flex;
         align-items: center;
+        justify-content: flex-end;
         ul {
           display: flex;
+          flex-direction: row;
           padding-left: 0;
           margin-bottom: 0;
           list-style: none;

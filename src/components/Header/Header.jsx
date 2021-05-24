@@ -1,9 +1,13 @@
-import React from "react";
+import React,{useState} from "react";
 import { Link } from "react-router-dom";
 import styles from "./Header.module.scss";
 export default function Header() {
+  const [toggle, setToggle] = useState(false)
+  const handleToggle=()=>{
+    setToggle(!toggle)
+  }
   return (
-    <header className={`${styles.main_header} ${styles.scrolled}`}>
+    <header className={`${styles.main_header}`}>
       <nav className={styles.navBar}>
         <div className={styles.container}>
           <Link to="/" className={styles.mpartial_logo}>
@@ -12,10 +16,10 @@ export default function Header() {
               alt="logo"
             />
           </Link>
-          <button type="button" className={styles.navbar_toggler}>
+          <button type="button" className={styles.navbar_toggler} onClick={handleToggle}>
             <span className={styles.navbar_toggler_icon}></span>
           </button>
-          <div className={styles.navbar_collapse}>
+          <div className={`${styles.navbar_collapse} ${toggle ? styles.show:""}`}>
             <ul>
               <li>
                 <Link to="/" className={styles.nav_link}>

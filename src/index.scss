@@ -459,13 +459,15 @@ table {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  // background: #888;
+  background-color: #3ac280;
+  outline: none;
   border-radius: 10px;
+  cursor: pointer!important;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  
 }
 
 img {
