@@ -1,0 +1,33 @@
+.section_title_text {
+  padding: 25% 7%;
+  font-size: 28px;
+  line-height: 32px;
+  margin: 5% 0;
+  text-align: center;
+  background-position: 50%;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #000;
+  opacity: 1;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/sectionTitle.png");
+}
+@media only screen and (min-width: 1200px) {
+  .section_title_text {
+    text-align: center;
+    background-position: 50%;
+    padding: 12%;
+    font-family: Museo Sans rounded\500, Helvetica, Arial, Sans-Serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0;
+    color: #000;
+    opacity: 1;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+}
