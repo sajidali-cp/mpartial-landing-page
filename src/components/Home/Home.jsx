@@ -22,7 +22,7 @@ export default function Home() {
           // }}
         >
           <source
-            src="https://mpartial-data.s3.us-east-2.amazonaws.com/homepage.mp4"
+            src="/assets/homepage.mp4"
             type="video/mp4"
           />
         </video>

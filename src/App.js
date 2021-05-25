@@ -4,6 +4,7 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import FeeStructure from "./pages/FeeStructure/FeeStructurePage";
@@ -17,6 +18,7 @@ function App() {
       <GroundTruthDataPage/>
       <HowItWorks/>
       <FeeStructure/>
+      <Footer/>
     </Router>
   );
 }

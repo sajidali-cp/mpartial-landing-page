@@ -1,0 +1,114 @@
+.footer {
+  background: #0a5169;
+  padding: 20px 0;
+
+  .container {
+    max-width: 350px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+      .col {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: auto;
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          display: flex;
+          background: #fff 0 0 no-repeat padding-box;
+          border-radius: 5px;
+          opacity: 1;
+          -webkit-box-pack: end;
+          -ms-flex-pack: end;
+          justify-content: flex-end;
+          li {
+            margin: 0 15px;
+            a {
+              width: 16px;
+              font-size: 1rem;
+              font-weight: 400;
+              line-height: 1.5;
+              font-family: Raleway, sans-serif;
+              -webkit-font-smoothing: antialiased;
+              list-style: none;
+              box-sizing: border-box;
+              text-decoration: none;
+              background-color: rgba(0, 0, 0, 0);
+              color: #0a5169;
+            }
+          }
+        }
+        .social_links {
+          background: rgba(0, 0, 0, 0) !important;
+          box-shadow: none !important;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width:1200px){
+  .footer {
+    background: #0a5169;
+    padding: 20px 0;
+  
+    .container {
+      max-width: 1140px;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        .col {
+          flex: 0 0 50%;
+          max-width: 50%;
+          margin: auto;
+          ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            background: #fff 0 0 no-repeat padding-box;
+            border-radius: 5px;
+            opacity: 1;
+            -webkit-box-pack: end;
+            -ms-flex-pack: end;
+            justify-content: flex-end;
+            li {
+              margin: 0 15px;
+              a {
+                width: 16px;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                font-family: Raleway, sans-serif;
+                -webkit-font-smoothing: antialiased;
+                list-style: none;
+                box-sizing: border-box;
+                text-decoration: none;
+                background-color: rgba(0, 0, 0, 0);
+                color: #0a5169;
+              }
+            }
+          }
+          .social_links {
+            background: rgba(0, 0, 0, 0) !important;
+            box-shadow: none !important;
+          }
+        }
+      }
+    }
+  }
+}

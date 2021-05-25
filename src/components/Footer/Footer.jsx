@@ -1,18 +1,18 @@
 import React from "react";
-
+import styles from "./Footer.module.scss"
 export default function Footer() {
   return (
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
+    <div className={styles.footer}>
+      <div className={styles.container}>
+        <div className={styles.row}>
+          <div className={styles.col}>
             <p>
               mpartial, a 4D Schematics Company. Copyright 2020 all rights
               reserved.
             </p>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <ul class="social-links">
+          <div className={styles.col}>
+            <ul className={styles.social_links}>
               <li>
                 <a
                   target="_blank"
@@ -20,7 +20,7 @@ export default function Footer() {
                   aria-label="Facebook"
                   rel="noopener"
                 >
-                  <img src="" />{" "}
+                  <img src="/assets/facebook.svg" />{" "}
                 </a>{" "}
               </li>
               <li>
@@ -30,7 +30,7 @@ export default function Footer() {
                   aria-label="Instagram"
                   rel="noopener"
                 >
-                  <img src="" />{" "}
+                  <img src="/assets/insta.svg" />{" "}
                 </a>
               </li>
               <li>
@@ -40,7 +40,7 @@ export default function Footer() {
                   aria-label="Linkedin"
                   rel="noopener"
                 >
-                  <img src="" />
+                  <img src="/assets/linkedIn.svg" />
                 </a>{" "}
               </li>
             </ul>
