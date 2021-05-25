@@ -81,17 +81,14 @@
           opacity: 1;
           background-size: 200px 200px;
           background-repeat: no-repeat;
-          text-align: left;
           padding-top: 21%;
           padding-left: 17%;
+          padding-bottom: 0;
           background-position: 0 16px;
+          text-align: left;
           background-image: url("../../assets/sectionTitle.png");
         }
         .section_title_description {
-          font-family: Raleway, sans-serif;
-          box-sizing: border-box;
-          margin-top: 0;
-          margin-bottom: 1rem;
           display: block;
           text-align: left;
           font-weight: 400;

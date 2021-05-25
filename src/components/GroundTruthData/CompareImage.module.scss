@@ -1,16 +1,47 @@
 .CompareImage__container {
-  height: 600px;
   width: 100%;
+  height: auto;
+  padding: 50px 0;
 }
 .Compare__btn {
   background-color: #3ac280;
-  width: 150px;
+  width: 115px;
+  display: flex;
+  align-items: center;
   cursor: w-resize !important;
-  border-color: #3ac280 !important;
+  // border-color: #3ac280 !important;
   border-style: none;
   border-radius: 20px;
 }
-.Compare__btn:hover {
-  border-color: #3ac280 !important;
-  background-color: #3ac280 !important;
+.try_now_btn {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 0 60px;
+  .btn:hover {
+    color: #000000;
+  }
+  .btn {
+    height: 40px;
+    width: 159px;
+    font-weight:100;
+    background: #3ac280 0 0 no-repeat padding-box;
+    border-color: #3ac280;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+    color: #fff;
+    opacity: 1;
+    min-width: 159px;
+    outline: none;
+    border: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .CompareImage__container {
+    width: 100%;
+    height: auto;
+    padding: 50px 50px 0;
+  }
 }

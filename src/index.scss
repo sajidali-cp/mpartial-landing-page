@@ -8,7 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
+html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -63,7 +63,7 @@ hr {
  */
 
 pre {
-  font-family: poppins,monospace, monospace; /* 1 */
+  font-family: poppins, monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -368,10 +368,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Poppins,Roboto, sans-serif;
+  font-family: Poppins, Roboto, sans-serif;
   font-weight: 400;
   color: #101010;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   scroll-behavior: smooth;
 }
 
@@ -462,12 +462,11 @@ table {
   background-color: #3ac280;
   outline: none;
   border-radius: 10px;
-  cursor: pointer!important;
+  cursor: pointer !important;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  
 }
 
 img {
@@ -500,4 +499,7 @@ img {
 ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #ccc3d6;
+}
+.CompareImage_CompareImage__container__-dsbO > div > div {
+  height: 80% !important;
 }

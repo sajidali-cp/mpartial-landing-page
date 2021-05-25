@@ -1,16 +1,29 @@
 import React from "react";
-import { Button } from "react-bootstrap";
-import { ArrowLeft, ArrowRight } from "react-bootstrap-icons";
-import ImageSlider from "react-image-comparison-slider";
-import styles from "./CompareImag.module.scss";
-import img1 from "../../images/12.jpg";
-import img2 from "../../images/13.jpg";
+import ReactCompareImage from "react-compare-image";
+import styles from "./CompareImage.module.scss";
 
 export default function CompareImage() {
   return (
     <>
-        <div className={styles.compare_images_section}>
-          <ImageSlider
+      <div
+        className={styles.CompareImage__container}
+
+      >
+        <ReactCompareImage
+          leftImage="/assets/post-migration.jpg"
+          rightImage="/assets/pre-migration.jpg"
+          handle={
+            <button className={styles.Compare__btn}>
+              <img
+                src="/assets/handle.png"
+                loading="lazy"
+                style={{ width: "115px" }}
+              />
+            </button>
+          }
+          sliderLineColor="#3ac280"
+        />
+        {/* <ImageSlider
             image1={img1}
             image2={img2}
             customHandle={
@@ -23,10 +36,10 @@ export default function CompareImage() {
             sliderColor="#3ac280"
             handleColor="#3ac280"
             handleBackgroundColor="white"
-          />
-        </div>
+          /> */}
+      </div>
       <div className={styles.try_now_btn}>
-        <Button className={styles.btn}>Try Today</Button>
+        <button className={styles.btn}>Try Today</button>
       </div>
     </>
   );
