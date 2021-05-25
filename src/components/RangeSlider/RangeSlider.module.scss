@@ -1,0 +1,36 @@
+.wrapper {
+    width: 90%;
+        margin: 130px auto 60px!important;
+  .row {
+    background-color: rgb(255, 255, 255);
+    -webkit-box-pack: center;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    color: rgb(10, 81, 105);
+    padding: 0 15px;
+    .col {
+      position: relative;
+      display: flex;
+      -webkit-box-pack: center;
+      justify-content: center;
+      text-align: center;
+      width: 1px;
+      background: rgb(211, 211, 211);
+      height: 20px;
+      line-height: 60px;
+      margin: 0px 0px 20px;
+      font-family: Gilroy;
+      color: rgb(132, 167, 179);
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+}
+@media (min-width: 1200px){
+    .wrapper {
+        width: 90%;
+        margin: 130px auto 60px!important;
+    }
+}
+
