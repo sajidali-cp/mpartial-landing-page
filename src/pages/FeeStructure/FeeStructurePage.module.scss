@@ -1,0 +1,40 @@
+.feeStructure {
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  text-align: center;
+  color: rgb(10, 81, 105);
+  padding-bottom: 20px;
+  .container {
+    width: 100%;
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    .section_title_description {
+      max-width: 620px;
+      margin: 0px auto;
+      text-align: center;
+      font-size: 14px;
+    }
+    .card_row_wrapper {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      font-family: Raleway, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      text-align: center;
+      color: rgb(10, 81, 105);
+      box-sizing: border-box;
+      margin-top: 3rem !important;
+      margin-bottom: 3rem !important;
+      padding-top: 3rem !important;
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+      }
+    }
+  }
+}
