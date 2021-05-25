@@ -12,14 +12,14 @@ export default function Home() {
           playsInline
           width="1388"
           height="780"
-          style={{
-            positioN: "absolute",
-            width: "100%",
-            height: "auto",
-            top: "-61.875px",
-            left: "0px",
-            right:"0px"
-          }}
+          // style={{
+          //   positioN: "absolute",
+          //   width: "100%",
+          //   height: "auto",
+          //   top: "-61.875px",
+          //   left: "0px",
+          //   right:"0px"
+          // }}
         >
           <source
             src="https://mpartial-data.s3.us-east-2.amazonaws.com/homepage.mp4"

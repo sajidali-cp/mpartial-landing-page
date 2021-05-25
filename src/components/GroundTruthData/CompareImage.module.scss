@@ -1,0 +1,16 @@
+.CompareImage__container {
+  height: 600px;
+  width: 100%;
+}
+.Compare__btn {
+  background-color: #3ac280;
+  width: 150px;
+  cursor: w-resize !important;
+  border-color: #3ac280 !important;
+  border-style: none;
+  border-radius: 20px;
+}
+.Compare__btn:hover {
+  border-color: #3ac280 !important;
+  background-color: #3ac280 !important;
+}

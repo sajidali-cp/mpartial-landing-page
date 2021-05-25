@@ -1,4 +1,8 @@
 .main_header {
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 4px #bababa;
+  box-shadow: 0 1px 4px #bababa;
+  color: #4a4848 !important;
   color: #f6f8f9;
   position: fixed;
   top: 0;
@@ -127,6 +131,10 @@
 
 @media only screen and (min-width: 1200px) {
   .main_header {
+    background-color: transparent;
+  -webkit-box-shadow: 0 1px 4px #bababa;
+  box-shadow: 0 1px 4px transparent;
+  color: #f6f8f9;
     color: #f6f8f9;
     position: fixed;
     top: 0;
